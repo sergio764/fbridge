@@ -8,6 +8,10 @@ Live site: https://sergio764.github.io/fbridge/
 
 Repository: https://github.com/sergio764/fbridge
 
+## Design Direction
+
+Use a restrained sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, or colorful marketplace styling.
+
 ## Why This Version Exists
 
 The earlier `chatgpt.site` preview is private and asks visitors to sign in with ChatGPT. This folder is a plain static site that can be published through GitHub Pages so the page is public and does not require ChatGPT login.
