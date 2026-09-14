@@ -2,7 +2,7 @@
 
 This is the public static version of the FBridge brand site.
 
-FBridge is a weBridge vertical for food and beverage trade. It helps food and beverage teams brief, check, and speak with manufacturers in Latin America and Africa.
+FBridge is a weBridge vertical for ingredient supplier sourcing. It helps food and beverage teams find and check ingredient suppliers in Latin America and Africa.
 
 Live GitHub Pages fallback: https://sergio764.github.io/fbridge/
 
@@ -12,7 +12,7 @@ Repository: https://github.com/sergio764/fbridge
 
 ## Design Direction
 
-Use a restrained sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, or colorful marketplace styling.
+Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
 ## Why This Version Exists
 
