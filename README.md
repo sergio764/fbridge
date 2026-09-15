@@ -2,7 +2,7 @@
 
 This is the public static version of the FBridge brand site.
 
-FBridge is a weBridge vertical for raw ingredient supplier sourcing. It helps European food and beverage companies find suppliers in Latin America and Africa on a success-fee basis.
+FBridge is a weBridge vertical that finds ingredient suppliers in Latin America for European food and beverage companies. The commercial model is success fee.
 
 Live site: https://fbridge.webridge.es/
 
@@ -14,9 +14,11 @@ Repository: https://github.com/sergio764/fbridge
 
 Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated route linework and no photograph. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
-The first screen should be easy to understand: FBridge finds raw ingredient suppliers for European food and beverage companies, especially for ingredients such as cocoa, coffee, tea and stevia, and charges a success fee only when the buyer moves forward with a supplier FBridge found.
+The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America. Buyers only pay when they move forward with a supplier FBridge found.
 
-The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract. The categories are presented as popular European ingredient searches, not as a ranked market claim. Matcha also makes the sourcing principle explicit: Latin America and Africa are the core network, but the right origin depends on the ingredient.
+The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract.
+
+Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form and legal footer.
 
 The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through FormSubmit, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
 

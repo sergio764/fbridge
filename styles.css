@@ -438,13 +438,13 @@ h3 {
 }
 
 .ingredient-copy {
-  min-height: 11.3rem;
-  padding: 1.3rem 1.35rem 1.5rem;
+  min-height: 6.4rem;
+  padding: 1.2rem 1.35rem 1.35rem;
 }
 
 .ingredient-copy span {
   display: block;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.65rem;
   color: var(--fb-green);
   font-size: 0.74rem;
   font-weight: 500;
@@ -452,7 +452,7 @@ h3 {
 }
 
 .ingredient-copy h3 {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0;
 }
 
 .ingredient-note {
