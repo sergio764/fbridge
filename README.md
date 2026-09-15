@@ -16,7 +16,7 @@ Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green,
 
 Use the embedded Futura Std family throughout the website. Book is the default text weight, Medium is used for emphasis and interface labels, and Bold is used for the FBridge wordmark and strong legal text. In the wordmark, the `F` and `B` form one tight, baseline-aligned pair while `ridge` keeps its natural spacing. Do not reintroduce a separate serif display face.
 
-The official monogram is the user-supplied dark-green `FB` mark stored as `assets/fbridge-monogram.png`, with the B lowered slightly so both letterforms share the same optical centre, top and baseline. Use it in the header and footer only. Do not place oversized monogram watermarks behind the opening headline or in page sections.
+The official monogram is the user-supplied dark-green `FB` mark stored as `assets/fbridge-monogram.png`. Its clean single-colour silhouette gives the F and B the same top and baseline with a continuous, seam-free join. Use it in the header and footer only. Do not place oversized monogram watermarks behind the opening headline or in page sections.
 
 The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America and Africa. Keep the opening catchphrase to `Name the ingredient. We find the right supplier.` Keep enough line spacing in the opening headline that Futura's descenders remain visibly clear of the following line at every viewport size.
 
