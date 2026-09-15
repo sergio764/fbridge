@@ -145,7 +145,7 @@ img {
 }
 
 .brand-logo {
-  width: 2.3rem;
+  width: 2.55rem;
   height: auto;
   flex: 0 0 auto;
 }
@@ -935,7 +935,7 @@ h3 {
 }
 
 .footer-logo {
-  width: 2.7rem;
+  width: 3rem;
   height: auto;
   flex: 0 0 auto;
 }
@@ -1223,7 +1223,7 @@ h3 {
   }
 
   .brand-logo {
-    width: 2rem;
+    width: 2.2rem;
   }
 
   .header-cta {
