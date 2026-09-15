@@ -140,7 +140,7 @@ img {
   width: fit-content;
   color: var(--fb-ink);
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -944,7 +944,7 @@ h3 {
   display: block;
   margin-bottom: 0.35rem;
   color: var(--fb-ink);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .footer-identity {

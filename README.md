@@ -14,7 +14,7 @@ Repository: https://github.com/sergio764/fbridge
 
 Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated cocoa-bean drawings and no photograph or monogram watermark. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
-Use the embedded Futura Std family throughout the website. Book is the default text weight, Medium is used for emphasis and interface labels, and Bold is available for strong legal text. Do not reintroduce a separate serif display face.
+Use the embedded Futura Std family throughout the website. Book is the default text weight, Medium is used for emphasis and interface labels, and Bold is used for the FBridge wordmark and strong legal text. Do not reintroduce a separate serif display face.
 
 The official monogram is the user-supplied dark-green mark stored as `assets/fbridge-monogram.png`, with the B lowered slightly so both letterforms sit on the same optical line. Use it in the header and footer, with one low-opacity oversized version in the process section. Do not place the monogram behind the opening headline.
 
