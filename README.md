@@ -12,7 +12,7 @@ Repository: https://github.com/sergio764/fbridge
 
 ## Design Direction
 
-Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
+Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated route linework and no photograph. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
 The first screen should be easy to understand: FBridge finds raw ingredient suppliers for European food and beverage companies, especially for ingredients such as cocoa, coffee, tea and stevia, and charges a success fee only when the buyer moves forward with a supplier FBridge found.
 
@@ -30,7 +30,7 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 
 - `index.html` - one-page FBridge site.
 - `styles.css` - green FBridge visual system.
-- `assets/fbridge-hero.png` - hero image.
+- `hero-background.js` - lightweight animated linework for the opening background.
 - `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
 - `assets/og.png` - social preview image.
 - `assets/favicon.svg` - site icon.
