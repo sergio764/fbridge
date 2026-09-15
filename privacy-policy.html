@@ -72,9 +72,10 @@
               <li>Basic technical and security logs processed by the website host when pages are requested.</li>
             </ul>
             <p>
-              The ingredient request form sends the details you choose to provide through FormSubmit so they can be
-              delivered to FBridge by email. The website does not run advertising or analytics scripts. Clicking the
-              booking link takes you to Cal.com.
+              The ingredient request form sends the details you choose to provide to a weBridge-controlled endpoint
+              hosted by Vercel. The endpoint validates the request and uses Resend to deliver it to FBridge by email.
+              The website does not run advertising or analytics scripts. Clicking the booking link takes you to
+              Cal.com.
             </p>
           </section>
 
@@ -107,10 +108,11 @@
             <p>
               Personal data may be processed by providers that support our operations, such as email, scheduling,
               website hosting, customer relationship management, accounting, legal and IT services. The public
-              website is hosted by GitHub Pages, provided by GitHub, Inc. Ingredient request delivery is provided by
-              FormSubmit, operated by Devro LABS. Appointment scheduling is provided by Cal.com when you choose that
-              link. You can review FormSubmit's
-              <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">privacy information</a>.
+              website is hosted by GitHub Pages, provided by GitHub, Inc. Ingredient requests pass through Vercel's
+              hosting infrastructure and are delivered by Resend, operated by Plus Five Five, Inc. Appointment
+              scheduling is provided by Cal.com when you choose that link. You can review
+              <a href="https://vercel.com/legal/privacy-notice" target="_blank" rel="noopener noreferrer">Vercel's privacy notice</a>
+              and <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Resend's privacy policy</a>.
             </p>
             <p>
               Some providers may process data outside the European Economic Area. Where required, we rely on an
@@ -129,8 +131,8 @@
               where necessary to establish, exercise or defend legal claims.
             </p>
             <p>
-              FormSubmit states that submitted form data is retained on its service for 30 days. Other providers keep
-              technical or appointment data under their own retention policies.
+              Website, email-delivery and appointment providers may retain technical, security or delivery records
+              under their own retention policies and applicable agreements.
             </p>
           </section>
 
@@ -155,8 +157,8 @@
             <p>
               FBridge does not currently place optional analytics or advertising cookies on this website. The hosting
               provider may process essential technical information needed to deliver and secure the pages. Submitting
-              the ingredient request sends data to FormSubmit. External services, including FormSubmit and Cal.com,
-              apply their own security, cookie and privacy settings when you use them.
+              the ingredient request sends data through Vercel and Resend. External services, including GitHub Pages,
+              Vercel, Resend and Cal.com, apply their own security, cookie and privacy settings when you use them.
             </p>
             <p>
               We do not use personal data collected through this website for automated decision-making that produces

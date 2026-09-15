@@ -24,7 +24,7 @@ The ingredient gallery uses a consistent set of original, AI-generated editorial
 
 Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form, compact parent-company origin section and legal footer.
 
-The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through FormSubmit, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
+The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through a weBridge-controlled Vercel endpoint and Resend, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
 
 ## Why This Version Exists
 
@@ -60,4 +60,6 @@ The active DNS record for `webridge.es` is:
 
 ## Form Delivery
 
-The form posts to FormSubmit's AJAX endpoint for `fbridge@webridge.es` and includes the canonical live URL for provider verification. The first submission to a new recipient address triggers FormSubmit's one-time activation email. Delivery becomes active after the link in that email is confirmed. The form uses native validation, a honeypot field, privacy consent and in-page submission feedback.
+The form posts JSON to `https://webridge-gtm-strategy-nine.vercel.app/api/fbridge-enquiry`. The server validates the request, rejects untrusted browser origins, keeps the destination fixed at `fbridge@webridge.es`, and sends the message through Resend using the submitter's work email as the reply-to address. Stable submission IDs are used as 24-hour idempotency keys so a retry does not create a duplicate email. The form also uses native validation, a honeypot field, privacy consent and in-page submission feedback.
+
+The production delivery path was checked on 15 September 2026 with one labelled internal request. Resend message `4b6b9f49-c3c9-43ba-9e63-e5246912b900` reached the `delivered` state.

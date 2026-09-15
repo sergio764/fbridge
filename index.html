@@ -264,23 +264,19 @@
 
           <form
             class="request-form"
-            action="https://formsubmit.co/ajax/fbridge@webridge.es"
+            action="https://webridge-gtm-strategy-nine.vercel.app/api/fbridge-enquiry"
             method="POST"
             data-ingredient-form
           >
-            <input type="hidden" name="_subject" value="New FBridge ingredient request" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_url" value="https://fbridge.webridge.es/" />
             <label class="form-honey" aria-hidden="true">
               Leave this field empty
-              <input type="text" name="_honey" tabindex="-1" autocomplete="off" />
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
             </label>
 
             <div class="form-grid">
               <label class="form-field">
                 <span>Name</span>
-                <input type="text" name="Name" autocomplete="name" required />
+                <input type="text" name="name" autocomplete="name" required />
               </label>
               <label class="form-field">
                 <span>Work email</span>
@@ -288,24 +284,24 @@
               </label>
               <label class="form-field">
                 <span>Company</span>
-                <input type="text" name="Company" autocomplete="organization" required />
+                <input type="text" name="company" autocomplete="organization" required />
               </label>
               <label class="form-field">
                 <span>Ingredient</span>
                 <input
                   type="text"
-                  name="Ingredient"
+                  name="ingredient"
                   placeholder="e.g. cocoa powder, green coffee, dates"
                   required
                 />
               </label>
               <label class="form-field">
                 <span>Estimated volume</span>
-                <input type="text" name="Estimated volume" placeholder="e.g. 10 tonnes per month" />
+                <input type="text" name="estimatedVolume" placeholder="e.g. 10 tonnes per month" />
               </label>
               <label class="form-field">
                 <span>When do you need it?</span>
-                <select name="Timing" required>
+                <select name="timing" required>
                   <option value="" selected disabled>Select timing</option>
                   <option value="As soon as possible">As soon as possible</option>
                   <option value="Within one month">Within one month</option>
@@ -317,7 +313,7 @@
               <label class="form-field form-field-full">
                 <span>Requirements</span>
                 <textarea
-                  name="Requirements"
+                  name="requirements"
                   rows="5"
                   placeholder="Tell us anything else we should know."
                 ></textarea>
@@ -325,7 +321,7 @@
             </div>
 
             <label class="form-consent">
-              <input type="checkbox" name="Privacy consent" value="Accepted" required />
+              <input type="checkbox" name="privacyConsent" value="Accepted" required />
               <span>
                 I agree that FBridge may use these details to assess and respond to my request. See the
                 <a href="privacy-policy.html">privacy policy</a>.
