@@ -2,7 +2,7 @@
 
 This is the public static version of the FBridge brand site.
 
-FBridge is a weBridge vertical that finds ingredient suppliers in Latin America for European food and beverage companies. The commercial model is success fee.
+FBridge is a weBridge vertical that finds ingredient suppliers in Latin America and Africa for European food and beverage companies. The commercial model is success fee.
 
 Live site: https://fbridge.webridge.es/
 
@@ -18,7 +18,7 @@ Use the embedded Futura Std family throughout the website. Book is the default t
 
 The official monogram is the user-supplied dark-green mark stored as `assets/fbridge-monogram.png`, with the B lowered slightly so both letterforms sit on the same optical line. Use it in the header and footer, with one low-opacity oversized version in the process section. Do not place the monogram behind the opening headline.
 
-The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America. Buyers only pay when they move forward with a supplier FBridge found.
+The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America and Africa. Buyers only pay when they move forward with a supplier FBridge found.
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
