@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "FBridge Futura";
+  src: url("assets/fonts/FuturaStd-Book.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FBridge Futura";
+  src: url("assets/fonts/FuturaStd-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FBridge Futura";
+  src: url("assets/fonts/FuturaStd-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --fb-ink: #132117;
   --fb-ink-soft: #304133;
@@ -12,6 +36,7 @@
   --fb-muted: #626c5f;
   --fb-on-dark: #fff9ec;
   --fb-on-dark-muted: #d8decc;
+  --fb-font-family: "FBridge Futura", Futura, "Futura PT", "Futura Std", "Century Gothic", sans-serif;
 }
 
 * {
@@ -27,7 +52,7 @@ body {
   margin: 0;
   background: var(--fb-paper);
   color: var(--fb-ink);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--fb-font-family);
   font-weight: 400;
 }
 
@@ -247,7 +272,7 @@ h3 {
 h1 {
   max-width: 720px;
   margin-bottom: 1.45rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--fb-font-family);
   font-size: 4.15rem;
   line-height: 1.02;
 }
@@ -263,7 +288,7 @@ h1 {
 h2 {
   max-width: 630px;
   margin-bottom: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--fb-font-family);
   font-size: 2.72rem;
   line-height: 1.02;
 }
