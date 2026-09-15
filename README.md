@@ -4,9 +4,9 @@ This is the public static version of the FBridge brand site.
 
 FBridge is a weBridge vertical for raw ingredient supplier sourcing. It helps European food and beverage companies find suppliers in Latin America and Africa on a success-fee basis.
 
-Live GitHub Pages fallback: https://sergio764.github.io/fbridge/
+Live site: https://fbridge.webridge.es/
 
-Target custom domain: https://fbridge.webridge.es/
+GitHub Pages repository URL: https://sergio764.github.io/fbridge/
 
 Repository: https://github.com/sergio764/fbridge
 
@@ -40,14 +40,10 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 
 ## Deployment
 
-GitHub Pages serves this folder directly from the repository root.
+GitHub Pages serves this folder directly from the repository root at `https://fbridge.webridge.es/`. The custom domain is configured by the tracked `CNAME` file, and GitHub Pages enforces HTTPS.
 
-Do not add the `CNAME` file or set the GitHub Pages custom domain until DNS for `fbridge.webridge.es` points to GitHub. Otherwise the working GitHub Pages fallback can redirect to a subdomain that still shows the old TLS provisioning page.
-
-The DNS zone for `webridge.es` needs this record:
+The active DNS record for `webridge.es` is:
 
 - Type: `CNAME`
 - Name: `fbridge`
 - Value: `sergio764.github.io`
-
-After DNS is changed, add a `CNAME` file containing `fbridge.webridge.es` and set the same custom domain in GitHub Pages.
