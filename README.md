@@ -2,7 +2,7 @@
 
 This is the public static version of the FBridge brand site.
 
-FBridge is a weBridge vertical for ingredient supplier sourcing. It helps food and beverage teams find and check ingredient suppliers in Latin America and Africa.
+FBridge is a weBridge vertical for raw ingredient supplier sourcing. It helps European food and beverage companies find suppliers in Latin America and Africa on a success-fee basis.
 
 Live GitHub Pages fallback: https://sergio764.github.io/fbridge/
 
@@ -13,6 +13,8 @@ Repository: https://github.com/sergio764/fbridge
 ## Design Direction
 
 Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
+
+The first screen should be easy to understand: FBridge finds raw ingredient suppliers for European food and beverage companies, especially for ingredients such as cocoa, coffee, tea and stevia, and charges a success fee only when the buyer moves forward with a supplier FBridge found.
 
 ## Why This Version Exists
 
