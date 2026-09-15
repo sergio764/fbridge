@@ -871,6 +871,55 @@ h3 {
   color: var(--fb-green-dark);
 }
 
+.about-band {
+  border-top: 1px solid rgba(255, 249, 236, 0.15);
+  background: var(--fb-green);
+}
+
+.about-inner {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.62fr) minmax(0, 1.38fr);
+  gap: 5rem;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-wordmark-link {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.about-wordmark {
+  width: min(100%, 20rem);
+  height: auto;
+}
+
+.about-copy {
+  max-width: 720px;
+}
+
+.about-copy .eyebrow {
+  color: var(--fb-on-dark-muted);
+}
+
+.about-copy h2 {
+  margin-bottom: 1.35rem;
+  color: var(--fb-on-dark);
+}
+
+.about-copy > p:not(.eyebrow) {
+  margin-bottom: 0;
+  color: var(--fb-on-dark-muted);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.about-copy > p + p {
+  margin-top: 0.85rem;
+}
+
 .site-footer {
   width: min(100% - 4rem, 1180px);
   margin: 0 auto;
@@ -1134,6 +1183,7 @@ h3 {
   .process-section,
   .ingredient-intro,
   .contact-inner,
+  .about-inner,
   .legal-layout {
     grid-template-columns: 1fr;
     gap: 2.4rem;
@@ -1332,6 +1382,14 @@ h3 {
   .footer-main,
   .footer-legal {
     flex-direction: column;
+  }
+
+  .about-inner {
+    gap: 2.1rem;
+  }
+
+  .about-wordmark {
+    width: min(100%, 14rem);
   }
 
   .footer-links {

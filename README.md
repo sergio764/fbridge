@@ -22,7 +22,7 @@ The first screen should say one thing clearly: FBridge finds ingredient supplier
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
-Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form and legal footer.
+Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form, compact parent-company origin section and legal footer.
 
 The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through FormSubmit, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
 
@@ -42,6 +42,7 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `assets/fbridge-favicon.png` - monogram favicon on a warm-cream tile.
 - `assets/fonts/FuturaStd-*.otf` - embedded Futura Std web fonts for Book, Medium and Bold.
 - `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
+- `assets/webridge-wordmark.png` - official weBridge wordmark used in the About section.
 - `assets/og.png` - social preview image.
 - `legal-information.html` - company and website ownership information.
 - `privacy-policy.html` - FBridge privacy and GDPR information.
