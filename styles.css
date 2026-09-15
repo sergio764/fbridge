@@ -144,6 +144,21 @@ img {
   letter-spacing: 0;
 }
 
+.brand-wordmark,
+.brand-wordmark-f,
+.brand-wordmark-b {
+  display: inline-block;
+}
+
+.brand-wordmark-f,
+.brand-wordmark-b {
+  vertical-align: baseline;
+}
+
+.brand-wordmark-b {
+  margin-left: -0.14em;
+}
+
 .brand-logo {
   width: 2.55rem;
   height: auto;
