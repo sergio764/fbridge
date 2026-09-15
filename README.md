@@ -12,7 +12,7 @@ Repository: https://github.com/sergio764/fbridge
 
 ## Design Direction
 
-Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated cocoa-bean drawings and no photograph or monogram watermark. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
+Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated line drawings of cocoa beans, dates, matcha leaves and coffee beans, with no photograph or monogram watermark. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
 Use the embedded Futura Std family throughout the website. Book is the default text weight, Medium is used for emphasis and interface labels, and Bold is used for the FBridge wordmark and strong legal text. Do not reintroduce a separate serif display face.
 
@@ -36,7 +36,7 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 
 - `index.html` - one-page FBridge site.
 - `styles.css` - green FBridge visual system.
-- `hero-background.js` - lightweight animated cocoa-bean drawings for the opening background.
+- `hero-background.js` - lightweight animated ingredient drawings for the opening background.
 - `request-form.js` - asynchronous form submission and visible success/error states.
 - `assets/fbridge-monogram.png` - optimized transparent FBridge monogram.
 - `assets/fbridge-favicon.png` - monogram favicon on a warm-cream tile.
