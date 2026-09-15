@@ -20,7 +20,7 @@ The official monogram is the user-supplied dark-green mark stored as `assets/fbr
 
 The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America. Buyers only pay when they move forward with a supplier FBridge found.
 
-The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract.
+The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
 Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form and legal footer.
 
