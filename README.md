@@ -14,6 +14,8 @@ Repository: https://github.com/sergio764/fbridge
 
 Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, editorial typography, flatter sections, and carefully selected ingredient imagery. The opening is a full-width, typography-led dark-green hero with subtle animated route linework and no photograph. Do not bring back the rejected framed hero image, loud green version, bright lime, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
+The official monogram is the user-supplied dark-green mark stored as `assets/fbridge-monogram.png`. Use it in the header and footer, with low-opacity oversized versions in the opening and process section. Keep the watermark treatment restrained.
+
 The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America. Buyers only pay when they move forward with a supplier FBridge found.
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract.
@@ -34,9 +36,10 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `styles.css` - green FBridge visual system.
 - `hero-background.js` - lightweight animated linework for the opening background.
 - `request-form.js` - asynchronous form submission and visible success/error states.
+- `assets/fbridge-monogram.png` - optimized transparent FBridge monogram.
+- `assets/fbridge-favicon.png` - monogram favicon on a warm-cream tile.
 - `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
 - `assets/og.png` - social preview image.
-- `assets/favicon.svg` - site icon.
 - `legal-information.html` - company and website ownership information.
 - `privacy-policy.html` - FBridge privacy and GDPR information.
 - `terms-and-conditions.html` - terms governing use of the FBridge website.

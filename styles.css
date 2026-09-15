@@ -119,21 +119,10 @@ img {
   letter-spacing: 0;
 }
 
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 4px;
-  background: var(--fb-green-dark);
-  color: var(--fb-on-dark);
-  font-weight: 500;
-}
-
-.brand-mark span {
-  color: var(--fb-sage);
-  margin-left: 0.08rem;
+.brand-logo {
+  width: 2.3rem;
+  height: auto;
+  flex: 0 0 auto;
 }
 
 .site-nav {
@@ -205,6 +194,20 @@ a:focus-visible {
   width: 100%;
   height: 100%;
   pointer-events: none;
+}
+
+.hero-watermark {
+  position: absolute;
+  top: 50%;
+  right: max(2.5rem, calc((100vw - 1180px) / 2));
+  z-index: 1;
+  width: clamp(22rem, 38vw, 36rem);
+  height: auto;
+  opacity: 0.055;
+  filter: brightness(0) invert(1);
+  transform: translateY(-48%);
+  pointer-events: none;
+  user-select: none;
 }
 
 .hero-section::after {
@@ -586,10 +589,30 @@ h3 {
 }
 
 .process-section {
+  position: relative;
+  isolation: isolate;
   display: grid;
   grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1fr);
   gap: 5rem;
+  overflow: hidden;
   padding-top: 3rem;
+}
+
+.process-section > :not(.section-watermark) {
+  position: relative;
+  z-index: 1;
+}
+
+.section-watermark {
+  position: absolute;
+  bottom: -10rem;
+  left: -9rem;
+  z-index: 0;
+  width: clamp(22rem, 42vw, 34rem);
+  height: auto;
+  opacity: 0.032;
+  pointer-events: none;
+  user-select: none;
 }
 
 .process-list {
@@ -864,6 +887,18 @@ h3 {
   font-weight: 500;
 }
 
+.footer-identity {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.footer-logo {
+  width: 2.7rem;
+  height: auto;
+  flex: 0 0 auto;
+}
+
 .footer-main p {
   font-size: 0.82rem;
 }
@@ -1130,6 +1165,11 @@ h3 {
     padding: 5.4rem 0 5rem;
   }
 
+  .hero-watermark {
+    right: -3rem;
+    width: min(46vw, 31rem);
+  }
+
   .supplier-list article {
     align-items: flex-start;
   }
@@ -1145,9 +1185,8 @@ h3 {
     padding: 0 1rem;
   }
 
-  .brand-mark {
+  .brand-logo {
     width: 2rem;
-    height: 2rem;
   }
 
   .header-cta {
@@ -1190,6 +1229,12 @@ h3 {
   .hero-copy {
     width: min(100% - 2rem, 1180px);
     padding: 4rem 0 3.7rem;
+  }
+
+  .hero-watermark {
+    right: -32%;
+    width: min(94vw, 27rem);
+    opacity: 0.04;
   }
 
   .route-strip,
@@ -1274,6 +1319,14 @@ h3 {
 
   .form-field-full {
     grid-column: auto;
+  }
+
+  .section-watermark {
+    right: -38%;
+    bottom: -3rem;
+    left: auto;
+    width: min(92vw, 25rem);
+    opacity: 0.025;
   }
 
   .footer-main,
