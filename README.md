@@ -6,7 +6,7 @@ FBridge is a weBridge vertical for raw ingredient supplier sourcing. It helps Eu
 
 Live GitHub Pages fallback: https://sergio764.github.io/fbridge/
 
-Target custom domain: https://fbbridge.webridge.es/
+Target custom domain: https://fbridge.webridge.es/
 
 Repository: https://github.com/sergio764/fbridge
 
@@ -15,6 +15,10 @@ Repository: https://github.com/sergio764/fbridge
 Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green, sage/olive accents, smaller typography, flatter sections, and less dominant imagery. Do not bring back the rejected loud green version with bright lime, oversized hero type, heavy dark cards, colorful marketplace styling, or lead-gen/outbound positioning.
 
 The first screen should be easy to understand: FBridge finds raw ingredient suppliers for European food and beverage companies, especially for ingredients such as cocoa, coffee, tea and stevia, and charges a success fee only when the buyer moves forward with a supplier FBridge found.
+
+The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract. The categories are presented as popular European ingredient searches, not as a ranked market claim. Matcha also makes the sourcing principle explicit: Latin America and Africa are the core network, but the right origin depends on the ingredient.
+
+The final contact area offers two routes without embedding third-party scripts: an email ingredient request and an external 15-minute Cal.com booking link. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
 
 ## Why This Version Exists
 
@@ -27,19 +31,23 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `index.html` - one-page FBridge site.
 - `styles.css` - green FBridge visual system.
 - `assets/fbridge-hero.png` - hero image.
+- `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
 - `assets/og.png` - social preview image.
 - `assets/favicon.svg` - site icon.
+- `legal-information.html` - company and website ownership information.
+- `privacy-policy.html` - FBridge privacy and GDPR information.
+- `terms-and-conditions.html` - terms governing use of the FBridge website.
 
 ## Deployment
 
 GitHub Pages serves this folder directly from the repository root.
 
-Do not add the `CNAME` file or set the GitHub Pages custom domain until DNS for `fbbridge.webridge.es` points to GitHub. Otherwise the working GitHub Pages fallback can redirect to a subdomain that still shows the old TLS provisioning page.
+Do not add the `CNAME` file or set the GitHub Pages custom domain until DNS for `fbridge.webridge.es` points to GitHub. Otherwise the working GitHub Pages fallback can redirect to a subdomain that still shows the old TLS provisioning page.
 
 The DNS zone for `webridge.es` needs this record:
 
 - Type: `CNAME`
-- Name: `fbbridge`
+- Name: `fbridge`
 - Value: `sergio764.github.io`
 
-After DNS is changed, add a `CNAME` file containing `fbbridge.webridge.es` and set the same custom domain in GitHub Pages.
+After DNS is changed, add a `CNAME` file containing `fbridge.webridge.es` and set the same custom domain in GitHub Pages.
