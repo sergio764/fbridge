@@ -268,7 +268,7 @@ h1 {
   margin-bottom: 1.7rem;
   color: var(--fb-on-dark);
   font-size: 5.3rem;
-  line-height: 0.96;
+  line-height: 1.04;
   text-wrap: balance;
 }
 
@@ -1252,7 +1252,7 @@ h3 {
 
   .hero-section h1 {
     font-size: 3.05rem;
-    line-height: 0.98;
+    line-height: 1.04;
   }
 
   h2 {
