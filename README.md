@@ -16,7 +16,7 @@ Use a restrained ingredient-sourcing-desk direction: cream surfaces, deep green,
 
 Use the embedded Futura Std family throughout the website. Book is the default text weight, Medium is used for emphasis and interface labels, and Bold is available for strong legal text. Do not reintroduce a separate serif display face.
 
-The official monogram is the user-supplied dark-green mark stored as `assets/fbridge-monogram.png`. Use it in the header and footer, with low-opacity oversized versions in the opening and process section. Keep the watermark treatment restrained.
+The official monogram is the user-supplied dark-green mark stored as `assets/fbridge-monogram.png`, with the B lowered slightly so both letterforms sit on the same optical line. Use it in the header and footer, with low-opacity oversized versions in the opening and process section. Keep the watermark treatment restrained.
 
 The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America. Buyers only pay when they move forward with a supplier FBridge found.
 
