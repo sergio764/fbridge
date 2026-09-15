@@ -274,20 +274,6 @@ h3 {
   transform: translateY(-1px);
 }
 
-.hero-details {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-bottom: 0;
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--fb-line);
-}
-
-.hero-details div {
-  min-width: 0;
-}
-
-.hero-details dt,
 .route-strip span,
 .detail-panel span,
 .supplier-list span,
@@ -298,13 +284,6 @@ h3 {
   font-size: 0.76rem;
   font-weight: 500;
   letter-spacing: 0;
-}
-
-.hero-details dd {
-  margin: 0.35rem 0 0;
-  color: var(--fb-ink);
-  font-size: 0.95rem;
-  line-height: 1.4;
 }
 
 .hero-media {
@@ -688,7 +667,6 @@ h3 {
     font-size: 1.02rem;
   }
 
-  .hero-details,
   .route-strip,
   .proof-band,
   .detail-grid,
