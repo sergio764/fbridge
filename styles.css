@@ -221,20 +221,6 @@ a:focus-visible {
   pointer-events: none;
 }
 
-.hero-watermark {
-  position: absolute;
-  top: 50%;
-  right: max(2.5rem, calc((100vw - 1180px) / 2));
-  z-index: 1;
-  width: clamp(22rem, 38vw, 36rem);
-  height: auto;
-  opacity: 0.055;
-  filter: brightness(0) invert(1);
-  transform: translateY(-48%);
-  pointer-events: none;
-  user-select: none;
-}
-
 .hero-section::after {
   position: absolute;
   inset: 0;
@@ -1190,11 +1176,6 @@ h3 {
     padding: 5.4rem 0 5rem;
   }
 
-  .hero-watermark {
-    right: -3rem;
-    width: min(46vw, 31rem);
-  }
-
   .supplier-list article {
     align-items: flex-start;
   }
@@ -1254,12 +1235,6 @@ h3 {
   .hero-copy {
     width: min(100% - 2rem, 1180px);
     padding: 4rem 0 3.7rem;
-  }
-
-  .hero-watermark {
-    right: -32%;
-    width: min(94vw, 27rem);
-    opacity: 0.04;
   }
 
   .route-strip,
