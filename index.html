@@ -27,6 +27,7 @@
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script src="hero-background.js" defer></script>
+    <script src="request-form.js" defer></script>
   </head>
   <body>
     <main class="site-shell">
@@ -40,13 +41,20 @@
           <a href="#checks">Supplier checks</a>
           <a href="#process">Process</a>
         </nav>
-        <a class="header-cta" href="mailto:info@wbridge.co?subject=FBridge%20ingredient%20request">Send your spec</a>
+        <a
+          class="header-cta"
+          href="https://cal.com/sergio-tomas-juan-6ize8r/15min"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Book a call
+        </a>
       </header>
 
       <section class="hero-section" id="top">
         <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
         <div class="hero-copy">
-          <p class="eyebrow">Raw ingredient sourcing on success fee</p>
+          <p class="eyebrow">Raw ingredient sourcing · calls available within 24 hours</p>
           <h1>We find raw ingredient suppliers for European food companies.</h1>
           <p class="hero-lede">
             FBridge sources cocoa, coffee, tea, stevia and other raw ingredients for European food companies.
@@ -54,10 +62,15 @@
             you move forward with one we found.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="primary-button" href="mailto:info@wbridge.co?subject=FBridge%20ingredient%20request">
-              Send your request
+            <a
+              class="primary-button"
+              href="https://cal.com/sergio-tomas-juan-6ize8r/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book within 24 hours
             </a>
-            <a class="secondary-button" href="#process">How it works</a>
+            <a class="secondary-button" href="#contact">Send an ingredient request</a>
           </div>
         </div>
       </section>
@@ -360,34 +373,98 @@
       <section class="contact-band" id="contact">
         <div class="content-section contact-inner">
           <div class="contact-heading">
-            <p class="eyebrow">Start a supplier search</p>
-            <h2>Send the requirement, or talk it through first.</h2>
-            <p>Choose whichever is easier for your team. Both routes go directly to the person handling the search.</p>
+            <p class="eyebrow">Ingredient request</p>
+            <h2>Tell us what you need. We will take the supplier search from here.</h2>
+            <p>
+              Share the essentials and our sourcing team will review the request directly. For general questions,
+              write to <a href="mailto:fbridge@webridge.es">fbridge@webridge.es</a>.
+            </p>
+            <a
+              class="contact-calendar-link"
+              href="https://cal.com/sergio-tomas-juan-6ize8r/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Prefer to talk? Book a 15-minute call within 24 hours
+            </a>
           </div>
 
-          <div class="contact-options">
-            <article>
-              <span>Have the requirements ready?</span>
-              <h3>Submit an ingredient request.</h3>
-              <p>Include the ingredient, grade or format, estimated volume, target price, certificates and timing.</p>
-              <a class="primary-button light-button" href="mailto:info@wbridge.co?subject=FBridge%20ingredient%20request">
-                Email your ingredient request
-              </a>
-            </article>
-            <article>
-              <span>Want to discuss it first?</span>
-              <h3>Book 15 minutes with Sergio.</h3>
-              <p>Use a short call to check whether the requirement and supplier search are a practical fit.</p>
-              <a
-                class="secondary-button dark-secondary-button"
-                href="https://cal.com/sergio-tomas-juan-6ize8r/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Choose a time
-              </a>
-            </article>
-          </div>
+          <form
+            class="request-form"
+            action="https://formsubmit.co/ajax/fbridge@webridge.es"
+            method="POST"
+            data-ingredient-form
+          >
+            <input type="hidden" name="_subject" value="New FBridge ingredient request" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <label class="form-honey" aria-hidden="true">
+              Leave this field empty
+              <input type="text" name="_honey" tabindex="-1" autocomplete="off" />
+            </label>
+
+            <div class="form-grid">
+              <label class="form-field">
+                <span>Name</span>
+                <input type="text" name="Name" autocomplete="name" required />
+              </label>
+              <label class="form-field">
+                <span>Work email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label class="form-field">
+                <span>Company</span>
+                <input type="text" name="Company" autocomplete="organization" required />
+              </label>
+              <label class="form-field">
+                <span>Ingredient</span>
+                <input
+                  type="text"
+                  name="Ingredient"
+                  placeholder="e.g. cocoa powder, green coffee, stevia"
+                  required
+                />
+              </label>
+              <label class="form-field">
+                <span>Estimated volume</span>
+                <input type="text" name="Estimated volume" placeholder="e.g. 10 tonnes per month" />
+              </label>
+              <label class="form-field">
+                <span>When do you need it?</span>
+                <select name="Timing" required>
+                  <option value="" selected disabled>Select timing</option>
+                  <option value="As soon as possible">As soon as possible</option>
+                  <option value="Within one month">Within one month</option>
+                  <option value="Within one to three months">Within one to three months</option>
+                  <option value="More than three months">More than three months</option>
+                  <option value="Exploring options">Exploring options</option>
+                </select>
+              </label>
+              <label class="form-field form-field-full">
+                <span>Requirements</span>
+                <textarea
+                  name="Requirements"
+                  rows="5"
+                  placeholder="Grade, format, target price, certificates, packaging or anything else that matters."
+                ></textarea>
+              </label>
+            </div>
+
+            <label class="form-consent">
+              <input type="checkbox" name="Privacy consent" value="Accepted" required />
+              <span>
+                I agree that FBridge may use these details to assess and respond to my request. See the
+                <a href="privacy-policy.html">privacy policy</a>.
+              </span>
+            </label>
+
+            <div class="form-submit-row">
+              <button class="primary-button light-button" type="submit" data-form-submit>
+                Send ingredient request
+              </button>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </div>
+          </form>
         </div>
       </section>
 

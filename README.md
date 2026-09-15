@@ -18,7 +18,7 @@ The first screen should be easy to understand: FBridge finds raw ingredient supp
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and stevia extract. The categories are presented as popular European ingredient searches, not as a ranked market claim. Matcha also makes the sourcing principle explicit: Latin America and Africa are the core network, but the right origin depends on the ingredient.
 
-The final contact area offers two routes without embedding third-party scripts: an email ingredient request and an external 15-minute Cal.com booking link. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
+The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through FormSubmit, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
 
 ## Why This Version Exists
 
@@ -31,6 +31,7 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `index.html` - one-page FBridge site.
 - `styles.css` - green FBridge visual system.
 - `hero-background.js` - lightweight animated linework for the opening background.
+- `request-form.js` - asynchronous form submission and visible success/error states.
 - `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
 - `assets/og.png` - social preview image.
 - `assets/favicon.svg` - site icon.
@@ -47,3 +48,7 @@ The active DNS record for `webridge.es` is:
 - Type: `CNAME`
 - Name: `fbridge`
 - Value: `sergio764.github.io`
+
+## Form Delivery
+
+The form posts to FormSubmit's AJAX endpoint for `fbridge@webridge.es`. The first submission to a new recipient address triggers FormSubmit's one-time activation email. Delivery becomes active after the link in that email is confirmed. The form uses native validation, a honeypot field, privacy consent and in-page submission feedback.
