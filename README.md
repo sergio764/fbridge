@@ -18,7 +18,7 @@ Use the embedded Futura Std family throughout the website. Book is the default t
 
 The official monogram is the user-supplied dark-green `FB` mark stored as `assets/fbridge-monogram.png`, with the B lowered slightly so both letterforms share the same optical centre, top and baseline. Use it in the header and footer only. Do not place oversized monogram watermarks behind the opening headline or in page sections.
 
-The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America and Africa. Keep the subtitle to the single sentence `Tell us what you need and we will find the suppliers.` Keep enough line spacing in the opening headline that Futura's descenders remain visibly clear of the following line at every viewport size.
+The first screen should say one thing clearly: FBridge finds ingredient suppliers in Latin America and Africa. Keep the opening catchphrase to `Name the ingredient. We find the right supplier.` Keep enough line spacing in the opening headline that Futura's descenders remain visibly clear of the following line at every viewport size.
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
