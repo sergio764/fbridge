@@ -60,4 +60,4 @@ The active DNS record for `webridge.es` is:
 
 ## Form Delivery
 
-The form posts to FormSubmit's AJAX endpoint for `fbridge@webridge.es`. The first submission to a new recipient address triggers FormSubmit's one-time activation email. Delivery becomes active after the link in that email is confirmed. The form uses native validation, a honeypot field, privacy consent and in-page submission feedback.
+The form posts to FormSubmit's AJAX endpoint for `fbridge@webridge.es` and includes the canonical live URL for provider verification. The first submission to a new recipient address triggers FormSubmit's one-time activation email. Delivery becomes active after the link in that email is confirmed. The form uses native validation, a honeypot field, privacy consent and in-page submission feedback.
