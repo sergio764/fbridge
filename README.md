@@ -26,7 +26,7 @@ The LinkedIn covers in `assets/social/` use only the deep-green field and restra
 
 Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form, compact parent-company origin section and legal footer.
 
-The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through a weBridge-controlled Vercel endpoint and Resend, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
+The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through a weBridge-controlled Vercel endpoint and Resend, plus the calendar route and a visible email address for general questions. The footer identifies the operating company, links to FBridge-specific legal, privacy and website-terms pages, and includes an icon link to the official FBridge LinkedIn company page at `https://www.linkedin.com/company/itsfbridge`.
 
 ## Why This Version Exists
 
