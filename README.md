@@ -22,7 +22,7 @@ The first screen should say one thing clearly: FBridge finds ingredient supplier
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
-The LinkedIn covers in `assets/social/` extend the opening visual system with the same deep-green field, cream Futura copy and line drawings of cocoa, coffee, dates and matcha. The Page cover keeps key content centered for responsive cropping, while the profile banner keeps it clear of the profile-photo area.
+The LinkedIn covers in `assets/social/` use only the deep-green field and restrained line drawings of cocoa, coffee, dates and matcha. Keep both covers free of text, logos, monograms, URLs and other marks.
 
 Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form, compact parent-company origin section and legal footer.
 
