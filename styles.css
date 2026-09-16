@@ -136,7 +136,6 @@ img {
 }
 
 .brand-lockup {
-  gap: 0.72rem;
   width: fit-content;
   color: var(--fb-ink);
   font-size: 1rem;
