@@ -22,6 +22,8 @@ The first screen should say one thing clearly: FBridge finds ingredient supplier
 
 The ingredient gallery uses a consistent set of original, AI-generated editorial photographs for cocoa powder, cacao nibs, green coffee, black tea, matcha and dates.
 
+The LinkedIn covers in `assets/social/` extend the opening visual system with the same deep-green field, cream Futura copy and line drawings of cocoa, coffee, dates and matcha. The Page cover keeps key content centered for responsive cropping, while the profile banner keeps it clear of the profile-photo area.
+
 Keep the public copy short. Do not add named retailers, German-market positioning, country lists, long supplier checklists or repeated explanations of the same offer. The intended page order is the opening, ingredient gallery, one short process section, request form, compact parent-company origin section and legal footer.
 
 The opening makes the external 15-minute Cal.com booking link the primary action and states that calls are available within 24 hours. The final contact area contains an on-page ingredient request form delivered to `fbridge@webridge.es` through a weBridge-controlled Vercel endpoint and Resend, plus the calendar route and a visible email address for general questions. The footer identifies the operating company and links to FBridge-specific legal, privacy and website-terms pages.
@@ -42,6 +44,8 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `assets/fbridge-favicon.png` - monogram favicon on a warm-cream tile.
 - `assets/fonts/FuturaStd-*.otf` - embedded Futura Std web fonts for Book, Medium and Bold.
 - `assets/ingredient-*.jpg` - optimized ingredient gallery photographs.
+- `assets/social/fbridge-linkedin-page-cover.jpg` - 1512 x 256 LinkedIn Page cover.
+- `assets/social/fbridge-linkedin-profile-banner.jpg` - 1584 x 396 LinkedIn profile banner.
 - `assets/webridge-wordmark.png` - official weBridge wordmark used in the About section.
 - `assets/og.png` - social preview image.
 - `legal-information.html` - company and website ownership information.
