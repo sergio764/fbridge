@@ -4,7 +4,7 @@ This is the public static version of the FBridge brand site.
 
 FBridge is a weBridge vertical that finds ingredient suppliers in Latin America, Africa and Asia for European food and beverage companies. The commercial model is success fee.
 
-Live site: https://fbridge.webridge.es/
+Live site: https://itsfbridge.com/
 
 GitHub Pages repository URL: https://sergio764.github.io/fbridge/
 
@@ -54,13 +54,14 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 
 ## Deployment
 
-GitHub Pages serves this folder directly from the repository root at `https://fbridge.webridge.es/`. The custom domain is configured by the tracked `CNAME` file, and GitHub Pages enforces HTTPS.
+GitHub Pages serves this folder directly from the repository root at `https://itsfbridge.com/`. The custom domain is configured by the tracked `CNAME` file, and GitHub Pages enforces HTTPS.
 
-The active DNS record for `webridge.es` is:
+The active web DNS records for `itsfbridge.com` are:
 
-- Type: `CNAME`
-- Name: `fbridge`
-- Value: `sergio764.github.io`
+- Four GitHub Pages `A` records at the apex.
+- A `www` `CNAME` pointing to `sergio764.github.io`.
+
+InboxKit continues to manage the domain's separate Google Workspace mail and authentication records.
 
 ## Form Delivery
 
