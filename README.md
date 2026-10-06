@@ -47,7 +47,7 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `assets/social/fbridge-linkedin-page-cover.jpg` - 1512 x 256 LinkedIn Page cover.
 - `assets/social/fbridge-linkedin-profile-banner.jpg` - 1584 x 396 LinkedIn profile banner.
 - `assets/webridge-wordmark.png` - official weBridge wordmark used in the About section.
-- `assets/og.png` - social preview image.
+- `assets/og-logo.png` - logo-only 1200 x 630 social preview image on the warm-cream brand field.
 - `legal-information.html` - company and website ownership information.
 - `privacy-policy.html` - FBridge privacy and GDPR information.
 - `terms-and-conditions.html` - terms governing use of the FBridge website.
