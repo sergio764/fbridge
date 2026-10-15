@@ -52,13 +52,27 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `privacy-policy.html` - FBridge privacy and GDPR information.
 - `terms-and-conditions.html` - terms governing use of the FBridge website.
 - `robots.txt` - allows crawling and advertises the canonical sitemap.
-- `sitemap.xml` - the four public canonical URLs on `itsfbridge.com`.
+- `sourcing-questions.html` - concise buyer questions and answers using the existing page layout.
+- `sitemap.xml` - the five public canonical URLs on `itsfbridge.com`.
+- `tests/test_seo.py` - checks canonicals, links, assets, crawl access and structured-data/content consistency.
 
 ## Search Appearance
 
-Every public page uses a self-referencing canonical URL on `https://itsfbridge.com/`. The homepage includes `WebSite` and `Organization` JSON-LD identifying FBridge, its official logo, its LinkedIn page and parent company weBridge. Keep the approved logo-only social preview unchanged. Internal home links use `/` rather than duplicating `/index.html`.
+Every public page uses a self-referencing canonical URL on `https://itsfbridge.com/`. The homepage includes linked `WebSite`, `Organization` and `Service` JSON-LD identifying FBridge, its ingredient-sourcing service, official logo, LinkedIn page and parent company weBridge. Keep the approved logo-only social preview unchanged. Internal home links use `/` rather than duplicating `/index.html`.
 
-The former `fbridge.webridge.es` hostname still points to GitHub Pages and returned a host-level 404 on 15 October 2026. It needs a permanent HTTPS redirect to the equivalent path on `itsfbridge.com`, retaining query strings. The `webridge.es` nameservers are managed by ClouDNS; do not change the root website, academy or mail records to repair this one subdomain. GitHub Pages serves only the custom domain configured in `CNAME`, so adding redirect HTML to this production repository cannot repair requests to the old hostname. Search Console verification and indexing submission must use the user's approved Google account. Ranking and Google-selected URLs cannot be guaranteed.
+The former `fbridge.webridge.es` hostname is served separately by `sergio764/fbridge-legacy-redirect`. That redirect-only repository reuses the existing DNS pointer to GitHub and its approved HTTPS certificate; it does not change this site's `CNAME` or any email DNS. Each former page has an immediate meta-refresh and destination canonical, with JavaScript preserving queries and fragments. This is an HTML permanent redirect, not an HTTP 301. Google documents zero-second meta-refresh as a supported permanent-redirect alternative when server configuration is unavailable. Unknown paths remain genuine 404 responses.
+
+The ClouDNS nameservers do not establish that the user has a ClouDNS account. Do not require ClouDNS login or alter the weBridge root website, academy or mail records for this repair. Search Console verification and indexing submission must use the user's approved Google account; neither has been completed yet.
+
+## AI Search And Discovery
+
+The page content is static HTML and remains available without JavaScript. The sourcing-questions page provides seven short, visible answers; its FAQ structured data must match those answers exactly. Do not promise Google FAQ rich results, rankings or AI citations. Google says AI features use the same SEO foundations and require no special AI file or schema. No hidden text, invented reviews, unsupported achievements, keyword-stuffed pages or crawler-specific content is used.
+
+`robots.txt` allows search crawlers, including Googlebot, Bingbot, OAI-SearchBot, PerplexityBot and Claude-SearchBot, through its wildcard policy. Search access is not the same as model training, and there is no claim that a crawler has visited merely because a test request succeeds. Do not change training-bot policy as an alleged prerequisite for search visibility.
+
+The root-level 32-character `.txt` verification file supports IndexNow notifications of the canonical URLs. It is a public site-verification artifact, not an account API credential. Submit changes only after the file and changed pages are live. IndexNow acceptance confirms receipt, not indexing, ranking or a Google Search Console submission.
+
+Run `python3 -m unittest discover -s tests -v` before publishing search-related changes. Follow with live HTTP checks and desktop/mobile layout checks when visible content changes.
 
 ## Deployment
 
