@@ -51,6 +51,14 @@ Lovable chat/build/publish actions are intentionally not used for this version b
 - `legal-information.html` - company and website ownership information.
 - `privacy-policy.html` - FBridge privacy and GDPR information.
 - `terms-and-conditions.html` - terms governing use of the FBridge website.
+- `robots.txt` - allows crawling and advertises the canonical sitemap.
+- `sitemap.xml` - the four public canonical URLs on `itsfbridge.com`.
+
+## Search Appearance
+
+Every public page uses a self-referencing canonical URL on `https://itsfbridge.com/`. The homepage includes `WebSite` and `Organization` JSON-LD identifying FBridge, its official logo, its LinkedIn page and parent company weBridge. Keep the approved logo-only social preview unchanged. Internal home links use `/` rather than duplicating `/index.html`.
+
+The former `fbridge.webridge.es` hostname still points to GitHub Pages and returned a host-level 404 on 15 October 2026. It needs a permanent HTTPS redirect to the equivalent path on `itsfbridge.com`, retaining query strings. The `webridge.es` nameservers are managed by ClouDNS; do not change the root website, academy or mail records to repair this one subdomain. GitHub Pages serves only the custom domain configured in `CNAME`, so adding redirect HTML to this production repository cannot repair requests to the old hostname. Search Console verification and indexing submission must use the user's approved Google account. Ranking and Google-selected URLs cannot be guaranteed.
 
 ## Deployment
 

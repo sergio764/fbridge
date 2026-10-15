@@ -14,6 +14,8 @@
       content="Ingredient supplier sourcing in Latin America, Africa and Asia for European food and beverage companies."
     />
     <link rel="canonical" href="https://itsfbridge.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta property="og:site_name" content="FBridge" />
     <meta property="og:url" content="https://itsfbridge.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://itsfbridge.com/assets/og-logo.png" />
@@ -28,6 +30,37 @@
     />
     <meta name="twitter:image" content="https://itsfbridge.com/assets/og-logo.png" />
     <meta name="twitter:image:alt" content="FBridge logo" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://itsfbridge.com/#website",
+            "name": "FBridge",
+            "url": "https://itsfbridge.com/",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://itsfbridge.com/#organization" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://itsfbridge.com/#organization",
+            "name": "FBridge",
+            "url": "https://itsfbridge.com/",
+            "description": "FBridge finds ingredient suppliers in Latin America, Africa and Asia for European food and beverage companies.",
+            "logo": "https://itsfbridge.com/assets/fbridge-monogram.png",
+            "email": "fbridge@webridge.es",
+            "sameAs": ["https://www.linkedin.com/company/itsfbridge"],
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "weBridge",
+              "legalName": "WEBRIDGE SOCIEDAD LIMITADA.",
+              "url": "https://www.webridge.es/"
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="icon" href="assets/fbridge-favicon.png?v=20260916-1" type="image/png" />
     <link rel="apple-touch-icon" href="assets/fbridge-favicon.png?v=20260916-1" />
     <link rel="stylesheet" href="styles.css" />
